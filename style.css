@@ -1,24 +1,24 @@
 .search{
     overflow: hidden;
-    background-color:#8a31ff;
+    background-color:#190019;
 
 }
 .search a{
     float: left;
     display: block;
-    color: white;
+    color: #FBE4d8;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 .search a:hover{
-    background-color: #a530ff;
-    color: white;
+    background-color: #2b124c;
+    color: #FBE4d8;
 }
-.search a:active{
-    background-color:orange;
-    color: white;
+.search .active{
+    background-color:#854f6c;
+    color: #FBE4d8;
 }
 .search input[type=text]{
     float: right;
@@ -41,10 +41,41 @@
         border: 1px solid #ccc;
     }
 }
-.section{
-    background-color: aqua;
-    padding: 10px;
-    border-radius: 15px;
-    margin-top: 15px;
-    margin-left: 300px;
+.bodya{
+    background-color: #dfb6b2;
 }
+.Left-nav{
+    background-color: #2b124c;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+.main{
+    background-color: #2b124c;
+    
+
+}
+.Left-nav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.Left-nav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FBE4d8;
+    display: block;
+    transition: 0.3s;
+}
+.Left-nav a:hover {
+    color: #854f6c;
+  }
