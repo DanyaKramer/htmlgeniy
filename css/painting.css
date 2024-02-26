@@ -10,20 +10,58 @@ header {
     padding: 20px;
     text-align: center;
 }
-h1 {
-    margin: 0;
-    font-family: Arial, sans-serif;
+.painting-text {
+    text-align:justify;
+    text-indent: 5em;
+    margin-left: 10px;
 }
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px;
+.painting-different-styles {
+    text-align:justify;
+    text-indent: 5em;
+    margin-left: 10px;
 }
-.gallery img {
-    width: 200px;
-    margin: 10px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+.painting-free-expressions {
+    text-align:justify;
+    text-indent: 5em;
+    margin-left: 10px;
+}
+.paragraph-rinascita {
+    text-align:justify;
+    text-indent: 5em;
+    margin-left: 10px;
+}
+.paragraph-revival {
+    text-align:justify;
+    text-indent: 5em;
+    margin-left: 10px;
+
+}
+.text-classic {
+    text-align:justify;
+    text-indent: 5em;
+    margin-left: 10px;
+}
+.revival-img {
+    width: 256px;
+    height: 256px;
+    float: right;
+    margin: 7px 0 7px 7px;
+    border-radius: 7px;
+}
+.img-barroko {
+    width: 256px;
+    height: 256px;
+    float: left;
+    margin: 7px 7px 7px 0;
+    border-radius: 7px;
+}
+.img-classic {
+    width: 256px;
+    height: 256px;
+    float: right;
+    margin: 7px 7px 7px 0;
+    border-radius: 7px;
+    
 }
 nav {
     display: flex;
@@ -39,36 +77,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-.gallery img {
-    width: 512px;
-    height: 512px;
-    object-fit: cover;
-}
-.painting {
-    background-color: #f2f2f2;
-    text-align: justify;
-    display: block;
-    padding: 20px;
 
-}
-.gallery-text {
-    display: flex;
-    justify-content: space-around;
-}
-.photography {
-    background-color: #f2f2f2;
-    text-align: justify;
-    display: block;
-    padding: 20px;
-
-}
-.sculpture {
-    background-color: #f2f2f2;
-    text-align: justify;
-    display: block;
-    padding: 20px;
-
-}
 .painting-link {
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
