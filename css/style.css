@@ -205,3 +205,9 @@ nav a:hover {
 .photography-link:hover {
     color: #a5a5a5;
 }
+.image-sculpture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
