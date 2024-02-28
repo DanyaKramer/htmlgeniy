@@ -10,59 +10,7 @@ header {
     padding: 20px;
     text-align: center;
 }
-.painting-text {
-    text-align:justify;
-    text-indent: 5em;
-    margin-left: 10px;
-}
-.painting-different-styles {
-    text-align:justify;
-    text-indent: 5em;
-    margin-left: 10px;
-}
-.painting-free-expressions {
-    text-align:justify;
-    text-indent: 5em;
-    margin-left: 10px;
-}
-.paragraph-rinascita {
-    text-align:justify;
-    text-indent: 5em;
-    margin-left: 10px;
-}
-.paragraph-revival {
-    text-align:justify;
-    text-indent: 5em;
-    margin-left: 10px;
 
-}
-.text-classic {
-    text-align:justify;
-    text-indent: 5em;
-    margin-left: 10px;
-}
-.revival-img {
-    width: 256px;
-    height: 256px;
-    float: right;
-    margin: 7px 0 7px 7px;
-    border-radius: 7px;
-}
-.img-barroko {
-    width: 256px;
-    height: 256px;
-    float: left;
-    margin: 7px 7px 7px 0;
-    border-radius: 7px;
-}
-.img-classic {
-    width: 256px;
-    height: 256px;
-    float: right;
-    margin: 7px 7px 7px 0;
-    border-radius: 7px;
-    
-}
 nav {
     display: flex;
     justify-content: center;
@@ -78,36 +26,3 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.painting-link {
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
-    outline: none;
-    text-decoration: none;
-    color: #000;
-}
-.painting-link:hover {
-    color: #a5a5a5;
-}
-.sculpture-link {
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
-    outline: none;
-    text-decoration: none;
-    color: #000;
-}
-.sculpture-link:hover {
-    color: #a5a5a5;
-}
-.photography-link {
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 32px;
-    outline: none;
-    text-decoration: none;
-    color: #000;
-}
-.photography-link:hover {
-    color: #a5a5a5;
-}
